@@ -34,7 +34,7 @@
                 if($num == 1){
 
                     $_SESSION['logged_in'] = true;
-                    header('Location : liste.php');
+                    header('Location:liste.php');
                   
                     exit();
                 } else {
@@ -72,7 +72,7 @@
 
       <input  type="text" name="username" placeholder="username">
       <input type="password" name="password" placeholder="password">
-      <input type="submit" value="login">
+      <input type="submit"  value="login">
 
      </form>
 
