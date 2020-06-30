@@ -58,7 +58,7 @@ $articles = $article -> fetch_all();
        
         </form>
         
-        <a href="../index.php"><input type="submit" value="Go To the article" ></a> 
+        <a href="../index.php"><input type="submit" value="Go To the articles" ></a> 
    </div>
 
        

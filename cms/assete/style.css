@@ -2,9 +2,18 @@ body{
     padding-top:120px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.flex{
+
+    display: flex;
+   
+    
+}
 .container{
     width: 500px;
     margin:0 auto;  
+   
+    
 }
 
 a:link, a:visited{
@@ -14,7 +23,7 @@ a:link, a:visited{
 }
 
 a:hover {
-    color:#444;
+    color:green;
     border-bottom-color:#444 ;
 }
 
@@ -44,4 +53,16 @@ input[type=text], input[type=password],textarea {
 input[type=text] , input[type=password]:focus, textarea:focus{
 
    outline: none;
+}
+
+.suggest{
+
+   position: relative;
+   right: 25%;
+}
+
+
+.right{
+
+    margin-right: 10% ;
 }

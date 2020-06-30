@@ -35,9 +35,10 @@ if(isset($_GET['id'])){
        </h4>
 
        <p><?php echo $data['article_content']; ?></p>
+       <a href="index.php">&larr; Back</a>
    </div>
 
-       <a href="index.php">&larr; Back</a>
+     
      </body>
 </html>
 

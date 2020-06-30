@@ -1,4 +1,8 @@
 <?php
+
+
+
+
 class article {
 
     public function fetch_all(){
@@ -22,4 +26,4 @@ class article {
         return $query -> fetch();
     }
 }
-?> 
+?>

@@ -1,16 +1,12 @@
 <?php 
+
+// echo md5('password');
    session_start();
 
   include_once('../includes/connection.php');
 
     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] =false){
-?>
 
-
-
-
-
-<?php
 
     }else{
         if (isset($_POST['username'], $_POST['password'])){

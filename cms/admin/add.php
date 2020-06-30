@@ -27,7 +27,7 @@ $content= nl2br($_POST['content']);
 ?>
 <html>
     <head>
-        <title> CMS Tuto</title>
+        <title> CMS </title>
         
      </head>
 
