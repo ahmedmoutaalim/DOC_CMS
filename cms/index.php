@@ -33,6 +33,8 @@ $suggest = new suggest;
 
       $query-> execute();
 
+      $msg = 'your suggest was sent';
+
    }
 
 
@@ -90,6 +92,13 @@ $suggest = new suggest;
 <small style = "color:#aa0000;"><?php echo $error; ?><br><br>
 
 <?php }?>
+<?php  if (isset($msg))  { ?>
+
+<small style = "color:#00ff00;"><?php echo $msg; ?><br><br>
+
+<?php }?>
+
+
 
    <form action="index.php" method="post" autocomplete="off">
    <input type="text" placeholder="name" name="name"><br><br>
