@@ -5,8 +5,22 @@
    include_once('../includes/suggest.php');
    
    $suggest = new suggest;
-   $sug = $suggest -> call_all();
    
+   $sug = $suggest -> call_all();
+
+   if(isset($_GET['delete'])){
+      $id = $_GET['delete'];
+
+      $query = $pdo -> prepare("DELETE FROM suggest WHERE suggest_id = '$id' ");
+      $query ->bindValue(1 , $id);
+      $query -> execute();
+
+
+   }
+
+   
+
+ 
 
 ?>
 
@@ -27,13 +41,14 @@
   <li><a href="logout.php">Logout</a></li>
   </ol>
 
-  <ol>
 
-  <a class="right" href="#">visitors suggests</a>
-  
+  <a class="show" href="#">visitors suggests</a>
+
+  <ol class="hide">
+
 <?php foreach ($sug as $suggest) { ?>
-
-   <li>
+ 
+   <li class="lign">
    <p href="suggest.php?id=<?php echo $suggest['suggest_id'] ;?>">
       <?php echo $suggest['suggest_name'] ; ?>
      </p>
@@ -42,6 +57,13 @@
       </small>
 
       <p><?php echo $suggest['suggest_content']; ?></p>
+
+  
+    <a href="liste.php?delete=<?php echo $suggest['suggest_id']; ?>">delete</a>
+  
+    
+   
+
       
    </li>
 <?php  } ?>   
@@ -50,5 +72,7 @@
 
  </div>
 </body>
+
+<script src="main.js"></script>
 </html>
 

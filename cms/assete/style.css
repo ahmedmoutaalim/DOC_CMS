@@ -62,7 +62,17 @@ input[type=text] , input[type=password]:focus, textarea:focus{
 }
 
 
-.right{
 
-    margin-right: 10% ;
+
+.lign{
+
+    line-height: 2px;
+}
+
+
+
+.hide{
+
+    display: none;
+  
 }
