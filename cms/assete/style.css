@@ -18,9 +18,18 @@ ol li {
 
 
 
+.mode{
+
+    margin-bottom: 20px;
+}
 
 
+.article{
 
+  padding-top: 10%;
+  margin:0 auto;
+  width: 22%;
+}
 
 
 
@@ -30,9 +39,39 @@ ol li {
   
 }
 
-.sizerrrr{
+.size{
 
   width: 40px;
   margin: 10px;
  
 }
+
+.admin{
+
+   width: 35%;
+    margin: 0 auto;
+    margin-top: 10%;
+
+}
+
+.operation{
+
+    width: 18%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.delete{
+
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10%;
+    
+}
+
+.text{
+
+    text-align: center;
+}
+
+

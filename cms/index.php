@@ -57,7 +57,7 @@ $suggest = new suggest;
 
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
      
-    <img class="sizerrrr"src="img/summer.png" alt="icon">
+    <img class="size"src="img/summer.png" alt="icon">
     
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -132,11 +132,10 @@ $suggest = new suggest;
 
 
 
-   <form action="index.php" method="post" autocomplete="off">
-   <input type="text" placeholder="name" name="name"><br><br>
-   <textarea name="suggest"  placeholder="suggest" cols="30" rows="10"></textarea><br><br>
-   <a href="#"><input type="submit" value="envoyer"></a>
-    
+   <form class="form-inline my-2 my-lg-0" action="index.php" method="post" autocomplete="off">
+   <input class="form-control mr-sm-2 mode" type="text" placeholder="name" name="name"><br><br>
+   <textarea class="form-control mr-sm-2 mode" name="suggest"  placeholder="suggest" cols="30" rows="10"></textarea><br><br>
+   <a href="#" class="mode"><button class="btn btn-secondary my-2 my-sm-0 mode" >envoyer</button></a>
     <form>
    </div>
 </div>  
