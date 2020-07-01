@@ -28,6 +28,7 @@ $content= nl2br($_POST['content']);
 <html>
     <head>
         <title> CMS </title>
+        <link rel="stylesheet" type="text/css" href="assete/bootswatch.css">
         
      </head>
 

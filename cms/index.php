@@ -48,7 +48,7 @@ $suggest = new suggest;
     <head>
         <title> CMS </title>
         <link rel="stylesheet" href="assete/style.css">
-        <link rel="stylesheet" type="text/css" href="//C:/Users/Youcode/Desktop:/boo.css">
+        <link rel="stylesheet" type="text/css" href="assete/bootswatch.css">
   
      </head>
 
@@ -56,7 +56,9 @@ $suggest = new suggest;
      <body>
 
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
+     
+    <img class="sizerrrr"src="img/summer.png" alt="icon">
+    
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -114,7 +116,7 @@ $suggest = new suggest;
    <div class="suggest">
 
 
-   <a href="suggest.php">suggest</a><br><br>
+   <a href="#">suggest</a><br><br>
 
    
 <?php  if (isset($error))  { ?>

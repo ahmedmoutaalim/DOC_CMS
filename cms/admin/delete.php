@@ -33,6 +33,7 @@ $articles = $article -> fetch_all();
     <head>
         <title> CMS Tuto</title>
         <link rel="stylesheet" href="../assete/style.css">
+        <link rel="stylesheet" type="text/css" href="../assete/bootswatch.css">
      </head>
 
 
