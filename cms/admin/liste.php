@@ -84,7 +84,7 @@
    <p href="suggest.php?id=<?php echo $suggest['suggest_id'] ;?>">
       <?php echo $suggest['suggest_name'] ; ?>
      </p>
-     <small >
+     <small style="color:green;" >
       posted <?php  echo date('l jS', $suggest['suggest_timestamp']); ?>
       </small>
 

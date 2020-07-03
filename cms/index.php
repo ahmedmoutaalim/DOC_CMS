@@ -135,7 +135,7 @@ $suggest = new suggest;
    <form class="form-inline my-2 my-lg-0" action="index.php" method="post" autocomplete="off">
    <input class="form-control mr-sm-2 mode" type="text" placeholder="name" name="name"><br><br>
    <textarea class="form-control mr-sm-2 mode" name="suggest"  placeholder="suggest" cols="30" rows="10"></textarea><br><br>
-   <a href="#" class="mode"><button class="btn btn-secondary my-2 my-sm-0 mode" >envoyer</button></a>
+   <a href="#"><button class="btn btn-secondary my-2 my-sm-0 " >envoyer</button></a>
     <form>
    </div>
 </div>  

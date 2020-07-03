@@ -72,6 +72,14 @@ ol li {
 .text{
 
     text-align: center;
+    font-size: x-large;
 }
+
+.red{
+   position: relative;
+   bottom: 10px;
+  
+}
+
 
 

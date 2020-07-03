@@ -65,6 +65,8 @@ if(isset($_GET['id'])){
        </h4>
 
        <p class="text"><?php echo $data['article_content']; ?></p>
+
+     <?php  echo '<img src="img/'.$data['article_img'].'"width="250px" height=300px"/>';?><br><br>
        <a href="index.php">&larr; Back</a>
    </div>
 
